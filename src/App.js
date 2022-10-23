@@ -14,8 +14,8 @@ import { CompanyList } from "./components/companyList";
 function App() {
   return (
     <div className="App">
-      {/* <Header/> */}
-      {/* <header className="App-header">
+      <Header/> 
+    <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -28,8 +28,8 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
-      {/* <AddCompany/> */}
+      </header>
+           <AddCompany/>
       <BrowserRouter>
 
 
@@ -38,11 +38,11 @@ function App() {
 
       </BrowserRouter>
       
-      {/* <RegisterUser/> */}
-      {/* <CompanyDetails/> */}
+      <RegisterUser/> 
+      <CompanyDetails/>
       {/* <CompanyTab/> */}
-      {/* <CompanyList/> */}
-      {/* <Footer/>s */}
+      <CompanyList/>
+     <Footer/>
     </div>
   );
 }
